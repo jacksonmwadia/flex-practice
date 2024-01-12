@@ -1,0 +1,171 @@
+
+
+body{   
+    background-color:  hsl(232, 19%, 15%);    
+}
+.main{
+    padding: 0;
+    height: 80vh;
+    width: 70vw;
+    margin-left: 202px;
+    margin-bottom: 50px;
+    margin-top: 40px;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 18px;
+    align-items: center;
+}
+.header{
+    color: white;
+    margin-bottom: 2rem;
+}
+.social{
+    font-size: 27px;
+    font-weight: bold;
+}
+.text{
+    font-weight: light;
+}
+.toggle{
+    display: flex;
+    margin-bottom: 2rem;
+    color:lightskyblue;
+    font-weight:light;
+    font-size: 15px;
+   
+}
+.btn{
+  
+   width:2.5rem;
+   border-radius: 9px;
+   background-color: aqua; 
+   cursor: pointer; 
+}
+
+.circle{
+    border-radius: 63px;
+    background-color: black;
+    width:0.8rem;
+    margin-right:2rem;
+   
+}
+
+
+.profile{
+    display: flex;   
+}
+
+.outer-card{
+    display: flex;
+    justify-content: space-between;  
+}
+
+.card{
+    display: flex;
+}
+
+.card1{  
+    background-color: hsl(228, 28%, 20%);
+    border-top-left-radius: 5px;
+    border-top-right-radius:5px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;   
+}
+
+.card1 > div{
+    width: 13vw;
+    height:4vh;
+}
+
+.profile{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;  
+}
+
+.number{
+    display: flex;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.followers{ 
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+    font-weight:10;
+    margin-top: 1.5rem;
+}
+
+.days{
+    display: flex;
+    justify-content: center;
+    color: green;
+    font-weight: bold;
+    padding: 1rem;
+    margin-top:-1rem;
+    align-items: center;
+}
+
+.card2{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card2 > div{
+    width: 16vw;
+    height:20vh;
+}
+
+.overview{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    color: white;
+    font-weight: 700;
+    font-size: 25px;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+}
+.view{
+    display: flex;
+    background-color: hsl(228, 28%, 20%);
+    border-top-left-radius: 5px;
+    border-top-right-radius:5px;
+    color: white;
+    height: 200px;
+    width: 300px;
+    justify-content: space-between;
+    margin-bottom: 0.5rem;
+}
+
+.view1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem;
+}
+
+.card3{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1.5rem;
+}
+
+
+.icon{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+
